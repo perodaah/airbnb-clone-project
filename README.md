@@ -4,7 +4,7 @@
 
 This is the backend for an Airbnb Clone project. It provides a robust and scalable foundation for managing user interactions, property listings, bookings, reviews, and payment processing. Built with Django and Django REST Framework, it aims to mimic core Airbnb functionalities.
 
----
+
 
 ## 🏆 Project Goals
 
@@ -15,7 +15,7 @@ This is the backend for an Airbnb Clone project. It provides a robust and scalab
 - **Review System:** User-generated reviews and property ratings.
 - **Data Optimization:** Efficient data access via indexing and caching.
 
----
+
 
 ## 🛠️ Features Overview
 
@@ -48,7 +48,7 @@ This is the backend for an Airbnb Clone project. It provides a robust and scalab
 - **Indexing:** Applied to frequent queries for performance.
 - **Caching:** Redis caching improves speed and reduces DB load.
 
----
+
 
 ## ⚙️ Technology Stack
 
@@ -60,3 +60,33 @@ This is the backend for an Airbnb Clone project. It provides a robust and scalab
 - **Redis** – Caching and session management.
 - **Docker** – Containerization.
 - **CI/CD Pipelines** – Continuous integration and deployment.
+
+---
+
+## 👥 Team Roles
+
+A successful backend project like this involves collaboration across multiple specialized roles. Here's an overview of each role and their key responsibilities in the team:
+
+### 🧠 Backend Developer
+- Designs and implements API endpoints using Django and DRF.
+- Handles business logic for user authentication, property listings, bookings, payments, and reviews.
+- Ensures integration with external services like payment gateways.
+- Collaborates with frontend developers to define data contracts (REST/GraphQL).
+
+### 🗃️ Database Administrator (DBA)
+- Designs the database schema to support scalable data models.
+- Implements indexing and normalization for performance and efficiency.
+- Manages backup strategies, migrations, and query optimization.
+- Ensures data integrity and security.
+
+### ⚙️ DevOps Engineer
+- Sets up Docker environments and orchestrates containers for development, staging, and production.
+- Configures CI/CD pipelines to automate testing and deployment.
+- Monitors system health, server uptime, and application logs.
+- Manages cloud infrastructure and scaling strategies.
+
+### 🧪 QA Engineer
+- Writes and executes test cases for API endpoints and backend workflows.
+- Performs functional, integration, and regression testing.
+- Reports bugs and works closely with developers to ensure issues are resolved.
+- Ensures the system meets quality standards before deployment.
