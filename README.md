@@ -282,3 +282,22 @@ This protects against man-in-the-middle (MITM) attacks and keeps sensitive infor
 
 All payment data is handled through a secure third-party payment gateway.  
 This ensures compliance with industry standards (e.g., PCI-DSS) and keeps financial data isolated from the backend application, reducing liability and improving security posture.
+
+---
+
+## 🚀 CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) is a development practice that automates the process of testing, building, and deploying code. It helps ensure that changes pushed to the codebase are reliable, consistent, and production-ready.
+
+### Why It's Important
+
+- 🧪 **Automatic Testing** – Runs tests on every commit to catch bugs early.
+- 🔁 **Consistent Builds** – Ensures the app behaves the same across development, staging, and production environments.
+- 🚀 **Faster Delivery** – New features, fixes, or updates can be shipped quickly and safely without manual intervention.
+- 🔒 **Reduces Human Error** – Eliminates manual steps in testing and deployment.
+
+### Tools Used
+
+- **GitHub Actions** – For automating workflows like running tests, building Docker images, and deploying on push or PR.
+- **Docker** – Ensures consistency across environments by packaging the app and dependencies together.
+- **(Optional)** **Heroku / AWS / Railway / Render** – Can be used for automatic deployment once the pipeline passes.
