@@ -248,3 +248,37 @@ This ensures faster response times and reduces load during high-traffic operatio
 
 ---
 
+## 🔐 API Security
+
+Security is a critical part of this backend project to protect sensitive user data, prevent misuse of the system, and ensure trust across the platform. The following measures will be implemented to secure the API and its data:
+
+### 🔑 Authentication
+
+All users must log in using secure authentication methods such as token-based or JWT (JSON Web Token) authentication.  
+This ensures that only verified users can access protected endpoints and interact with their own data securely.
+
+### 🛡️ Authorization
+
+Role-based access control (RBAC) is used to restrict access to certain resources.  
+For example, only hosts can create or manage property listings, while only the user who made a booking can cancel or view its details.  
+This prevents unauthorized actions and maintains data integrity across user roles.
+
+### 🚦 Rate Limiting
+
+To prevent abuse and DDoS attacks, rate limiting is applied to restrict the number of requests a client can make within a given timeframe.  
+This helps protect server resources and improves overall stability of the application.
+
+### 🧪 Input Validation & Sanitization
+
+All incoming data is validated and sanitized to prevent injection attacks such as SQL injection or XSS (Cross-site Scripting).  
+This helps ensure that only safe, expected data reaches the database or is rendered in responses.
+
+### 🔒 HTTPS Enforcement (In Deployment)
+
+The API will be served over HTTPS in production environments to ensure encrypted communication between clients and servers.  
+This protects against man-in-the-middle (MITM) attacks and keeps sensitive information like passwords and payment data secure.
+
+### 💳 Payment Security
+
+All payment data is handled through a secure third-party payment gateway.  
+This ensures compliance with industry standards (e.g., PCI-DSS) and keeps financial data isolated from the backend application, reducing liability and improving security posture.
