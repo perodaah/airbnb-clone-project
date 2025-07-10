@@ -91,7 +91,7 @@ A successful backend project like this involves collaboration across multiple sp
 - Reports bugs and works closely with developers to ensure issues are resolved.
 - Ensures the system meets quality standards before deployment.
 
---
+---
 
 ## ⚙️ Technology Stack
 
@@ -122,7 +122,7 @@ A breakdown of the technologies used in building this backend system:
   Automates testing and deployment processes to ensure rapid and reliable updates to the application.
 
 
---
+---
 
 ## 🗃️ Database Design
 
@@ -143,7 +143,7 @@ Represents the individuals using the platform, either as guests or hosts.
 - One user can make **multiple bookings**
 - One user can leave **multiple reviews**
 
----
+
 
 ### 🏡 Properties
 
@@ -161,7 +161,7 @@ Represents the listings that users (hosts) can rent out.
 - A property can have **many bookings**
 - A property can have **many reviews**
 
----
+
 
 ### 📅 Bookings
 
@@ -179,7 +179,7 @@ Tracks reservations made by users for properties.
 - Each booking is for **one property**
 - Each booking can have **one payment**
 
----
+
 
 ### 💸 Payments
 
@@ -194,7 +194,7 @@ Stores payment information related to bookings.
 🔗 **Relations:**
 - Each payment is tied to **one booking**
 
----
+
 
 ### ✍️ Reviews
 
@@ -209,3 +209,42 @@ User-generated feedback on properties.
 🔗 **Relations:**
 - Each review belongs to **one user**
 - Each review is linked to **one property**
+
+---
+
+## 🧩 Feature Breakdown
+
+This section outlines the core features implemented in the backend and how each contributes to the overall functionality of the Airbnb Clone.
+
+### 👥 User Management
+
+Handles user registration, login, authentication, and profile management. 
+It ensures that both guests and hosts can securely access and manage their accounts with role-based controls.
+
+### 🏘️ Property Management
+
+Allows hosts to create, update, retrieve, and delete property listings. 
+This feature is central to the platform, enabling users to showcase available spaces with details like pricing, location, and amenities.
+
+### 📆 Booking System
+
+Manages the reservation process from check-in to check-out. 
+Guests can book properties for specific dates, and the system prevents double-booking by enforcing date availability.
+
+### 💳 Payment Processing
+
+Facilitates secure transactions between guests and hosts. 
+It handles booking-related payments, tracks payment status, and ensures transaction records are stored for reference.
+
+### ⭐ Review System
+
+Enables guests to leave reviews and ratings for properties they’ve booked. 
+This builds trust in the platform by providing user-generated feedback and helps hosts improve their offerings.
+
+### ⚙️ Data Optimization
+
+Uses techniques like database indexing and caching to improve performance and scalability. 
+This ensures faster response times and reduces load during high-traffic operations.
+
+---
+
