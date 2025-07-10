@@ -90,3 +90,33 @@ A successful backend project like this involves collaboration across multiple sp
 - Performs functional, integration, and regression testing.
 - Reports bugs and works closely with developers to ensure issues are resolved.
 - Ensures the system meets quality standards before deployment.
+
+--
+
+## ⚙️ Technology Stack
+
+A breakdown of the technologies used in building this backend system:
+
+- 🐍 **Django**  
+  A high-level Python web framework used to build robust backend logic and manage the overall application structure.
+
+- 🧰 **Django REST Framework (DRF)**  
+  Provides tools for building flexible and powerful RESTful APIs to handle user, property, booking, and payment operations.
+
+- 🔍 **GraphQL**  
+  Enables efficient, flexible querying from the frontend, reducing over-fetching of data and allowing custom queries.
+
+- 🛢️ **PostgreSQL**  
+  A reliable, scalable relational database used for storing and querying structured data like users, bookings, and properties.
+
+- 📬 **Celery**  
+  Handles asynchronous tasks such as sending notifications, email confirmations, and processing background jobs.
+
+- ⚡ **Redis**  
+  Used alongside Celery for task queuing and also serves as a caching layer to boost performance.
+
+- 🐳 **Docker**  
+  Containerizes the application and its dependencies to ensure consistency across development, testing, and production environments.
+
+- 🔁 **CI/CD Pipelines**  
+  Automates testing and deployment processes to ensure rapid and reliable updates to the application.
